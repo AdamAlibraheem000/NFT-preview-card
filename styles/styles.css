@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --primary-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --secondary-main-BG: hsl(217, 54%, 11%);
+    --secondary-card-BG: hsl(216, 50%, 16%);
+    --secondary-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--secondary-main-BG);
+}
+
+img{
+    max-height: 100%;
+}
+
+.section-img{
+    height: 300px;
+
+}
+
+h1{
+    margin: 20px;
+}
+
+.image-avatar{
+    height: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+}
+
