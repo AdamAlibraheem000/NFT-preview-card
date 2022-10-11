@@ -18,7 +18,12 @@
 
 body{
     font-family: "Outfit", sans-serif;
-    
+    background-color: var(--secondary-main-BG);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -26,26 +31,87 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: var(--secondary-main-BG);
+    width: fit-content;
+    /* border: 5px solid red; */
+    background-color: var(--secondary-card-BG);
+    border-radius: 20px;
+   
 }
 
 img{
     max-height: 100%;
+    border-radius: 10px;
 }
 
 .section-img{
     height: 300px;
-
+    border-radius: 30px;
+    margin-top: 40px;
 }
 
 h1{
     margin: 20px;
+    color: var(--white);
+}
+
+p{
+    color: var(--white);
+    font-weight: 200;
+}
+
+.content{
+    padding: 0 20px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: var(--primary-blue);
+}
+
+
+
+.time-div{
+    border-bottom: 2px solid var(--secondary-line);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin: 0 20px;
+    
+}
+
+.ETH{
+    display: inline;
+    color: var(--primary-cyan);
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.days-left{
+    display: inline;
+    color: var(--primary-blue);
 }
 
 .image-avatar{
     height: 2.2rem;
     border-radius: 50%;
     border: 2px solid var(--white);
+    margin-left: 15px;
+    
 }
 
+.avatar-div{
+    height: 4rem;
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar-div p{
+    display: inline;
+    margin-left: 20px;
+    padding-top: 5px;
+    color: var(--primary-blue);
+}
+
+span{
+    color: var(--white);
+}
